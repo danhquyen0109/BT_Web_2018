@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+      <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Alumni Management</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Plugin CSS -->
+        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+        <!-- Custom styles for this template -->
+        <link href="css/freelancer.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="form-validation.css" rel="stylesheet">
+
+      </head>
+
+  <body>
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Cựu Sinh Viên</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Các khóa/Bài đăng</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Giới thiệu</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Gửi bài</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </head>
+
+  <body class="bg-light">
+
+    <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h2>Thêm Lớp Khóa Học</h2>
+        <hr class="star-dark mb-5">
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Các Bài Được Gửi</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Tên người gửi</h6>
+                <small class="text-muted">Content....</small>
+              </div>
+              <a class="text-muted" href="#link" >Xem tiếp</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Tên người gửi 2</h6>
+                <small class="text-muted">Content...</small>
+              </div>
+              <a class="text-muted" href="#link" >Xem tiếp</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Tên Người Gửi 3</h6>
+                <small class="text-muted">Content...</small>
+              </div>
+              <a class="text-muted" href="#link" >Xem tiếp</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <a href="#link" >Trang sau</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Viết Bài</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Tiêu Đề</label>
+                <input type="text" class="form-control" id="title_paragraph" value="" required>
+                <div class="invalid-feedback">
+                  Valid title is required.
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="username">Tải Ảnh Lên</label>
+              
+
+              <!-- Cái này cần sửa lại để có thể kéo thả ảnh ở đây -->
+              <div class="input-group">
+                <div class="form-control" id="dropbox" required style="height: 100px;">Drop your images here...</div>
+              </div>
+              <button class="btn btn-primary btn-lg btn-block" style="width: 20%;">Duyệt Tìm</button>
+            </div>
+
+
+            <div class="mb-3">
+              <label for="username">Nội Dung</label>
+              <div class="input-group">
+                <textarea class="form-control" id="content" required style="height: 250px;"></textarea>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your content is required.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Đăng Bài</button>
+          </form>
+        </div>
+      </div>
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; Team</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
